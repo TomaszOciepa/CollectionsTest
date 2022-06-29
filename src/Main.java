@@ -6,7 +6,8 @@ public class Main {
 
         System.out.println("Hello world!");
 
-
+        Set set = new Set();
+        set.seting();
 
 
 
