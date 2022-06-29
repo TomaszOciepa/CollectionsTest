@@ -8,11 +8,11 @@ public class Main {
 //        Lista list = new Lista();
 //        list.listing();
 
-        Set set = new Set();
-        set.seting();
+//        Set set = new Set();
+//        set.seting();
 
-//        Map maps = new Map();
-//        maps.mapss();
+        Map maps = new Map();
+        maps.mapss();
 
     }
 }
