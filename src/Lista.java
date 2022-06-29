@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class List {
+public class Lista {
 
     public void listing(){
         java.util.List<String> listWithname = new LinkedList<>();
@@ -22,5 +22,11 @@ public class List {
         System.out.println("------------------");
 
         System.out.println(otherListWithname.get(3));
+
+        System.out.println("------------------");
+
+        for (String item : otherListWithname){
+            System.out.println(item);
+        }
     }
 }
