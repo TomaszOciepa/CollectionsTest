@@ -6,7 +6,7 @@ public class Set {
         java.util.Set<String> setWithNames = new HashSet<>();
         setWithNames.add("Tomek");
         setWithNames.add("Klaudia");
-        setWithNames.add("Tomek");
+//        setWithNames.add("Tomek");
 
         java.util.Set<String> otherSetNames = new HashSet<>();
         otherSetNames.add("Zenek");
@@ -27,6 +27,9 @@ public class Set {
 //
 //        }
 
+        for (String item : otherSetNames) {
+            System.out.println(item);
+        }
 
 
 
